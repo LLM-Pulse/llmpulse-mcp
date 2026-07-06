@@ -1,0 +1,20 @@
+{
+  "name": "@llm-pulse/llmpulse-mcp",
+  "version": "1.0.0",
+  "description": "Runnable MCP wrapper for the hosted LLM Pulse MCP endpoint.",
+  "type": "module",
+  "bin": {
+    "llmpulse-mcp": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "smoke": "node test/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "license": "MIT"
+}
