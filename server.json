@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.LLM-Pulse/llmpulse-mcp",
+  "title": "LLM Pulse",
+  "description": "AI visibility analytics for brand mentions, citations, sentiment, and GEO reports",
+  "version": "1.0.0",
+  "websiteUrl": "https://api.llmpulse.ai/api-docs",
+  "repository": {
+    "url": "https://github.com/LLM-Pulse/llmpulse-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.llmpulse.ai/api/v1/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token from an LLM Pulse API key. API keys are available on Scale plans and above.",
+          "isRequired": true,
+          "isSecret": true,
+          "placeholder": "Bearer llmpulse_your_key_here"
+        }
+      ]
+    }
+  ]
+}
