@@ -1,0 +1,10 @@
+{
+  "name": "llm-pulse",
+  "version": "1.0.0",
+  "description": "Query LLM Pulse for brand visibility, citations, sentiment, share of voice, and AI search performance.",
+  "mcpServers": {
+    "llm-pulse": {
+      "httpUrl": "https://api.llmpulse.ai/api/v1/mcp"
+    }
+  }
+}

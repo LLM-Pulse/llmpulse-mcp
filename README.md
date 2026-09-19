@@ -14,6 +14,8 @@ Transport: Streamable HTTP
 
 Authentication: Bearer token
 
+The hosted endpoint also supports OAuth 2.0 with automatic discovery and dynamic client registration for compatible clients.
+
 Create an LLM Pulse API key in the app, then send it as:
 
 ```text
@@ -39,6 +41,16 @@ Without `LLMPULSE_API_KEY`, the wrapper still starts and exposes a read-only set
 docker build -t llmpulse-mcp .
 docker run --rm -i -e LLMPULSE_API_KEY=llmpulse_your_key_here llmpulse-mcp
 ```
+
+## Gemini CLI
+
+Install the extension from GitHub:
+
+```bash
+gemini extensions install https://github.com/LLM-Pulse/llmpulse-mcp
+```
+
+Gemini CLI connects to the hosted endpoint and opens the LLM Pulse OAuth flow when authentication is required.
 
 ## What It Provides
 
