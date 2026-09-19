@@ -52,6 +52,16 @@ gemini extensions install https://github.com/LLM-Pulse/llmpulse-mcp
 
 Gemini CLI connects to the hosted endpoint and opens the LLM Pulse OAuth flow when authentication is required.
 
+## Kiro Power and Agent Plugin
+
+This repository is also a portable Agent Plugin. In Kiro, choose **Powers → Add Custom Power → Import power from GitHub** and enter:
+
+```text
+https://github.com/LLM-Pulse/llmpulse-mcp
+```
+
+Kiro connects to the hosted server and handles the OAuth sign-in flow.
+
 ## What It Provides
 
 - Project and competitor dimensions
@@ -65,6 +75,7 @@ Gemini CLI connects to the hosted endpoint and opens the LLM Pulse OAuth flow wh
 - API docs: https://api.llmpulse.ai/api-docs
 - OpenAPI: https://api.llmpulse.ai/openapi.json
 - Product site: https://llmpulse.ai
+- Privacy policy: https://llmpulse.ai/privacy
 
 ## Example MCP Client Configuration
 

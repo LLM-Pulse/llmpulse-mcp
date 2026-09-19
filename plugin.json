@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "llm-pulse",
+  "version": "1.0.0",
+  "description": "Analyze brand visibility, citations, sentiment, and share of voice across AI search with LLM Pulse.",
+  "author": {
+    "name": "LLM Pulse",
+    "email": "info@llmpulse.ai",
+    "url": "https://llmpulse.ai"
+  },
+  "keywords": [
+    "ai search",
+    "brand visibility",
+    "citations",
+    "sentiment",
+    "share of voice",
+    "geo",
+    "llm pulse"
+  ],
+  "homepage": "https://llmpulse.ai/features/mcp",
+  "repository": "https://github.com/LLM-Pulse/llmpulse-mcp",
+  "license": "MIT"
+}
