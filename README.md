@@ -52,6 +52,16 @@ gemini extensions install https://github.com/LLM-Pulse/llmpulse-mcp
 
 Gemini CLI connects to the hosted endpoint and opens the LLM Pulse OAuth flow when authentication is required.
 
+## GitHub Copilot and VS Code
+
+In VS Code, run **Chat: Install Plugin From Source** from the Command Palette and enter:
+
+```text
+https://github.com/LLM-Pulse/llmpulse-mcp
+```
+
+The Agent Plugin registers the hosted LLM Pulse MCP server for GitHub Copilot and uses its OAuth sign-in flow.
+
 ## Kiro Power and Agent Plugin
 
 This repository is also a portable Agent Plugin. In Kiro, choose **Powers → Add Custom Power → Import power from GitHub** and enter:
